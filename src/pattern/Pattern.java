@@ -8,7 +8,7 @@ import utilhelper.PatternHelper;
 /**
  * @ author - Vaibhav Garg
  * @ desc - To create a pattern program
- * @ create at - 12/02/2023
+ * @ created at - 12/02/2023
  * @ modified at - 12/02/2023
  */
 public class Pattern {
@@ -50,7 +50,39 @@ public class Pattern {
 			case 8:
 				PatternCreater.downwardPyramidStar(number);
 				break;
+			case 9:
+				PatternCreater.downwardShapeStar(number);
+				break;
+			case 10:
+				PatternCreater.rightPascalStar(number);
+				break;
+			case 11:
+				PatternCreater.rightPascalBoolean(number);
+				break;
+			case 12:
+				PatternCreater.triangle(number);
+				break;
+			case 13:
+				PatternCreater.rightTriangleNumber(number);
+				break;
+			case 14:
+				PatternCreater.rightTriangleCharacter(number);
+				break;
+			case 15:
+				PatternCreater.downwardTriangleCharacter(number);
+				break;
+			case 16:
+				PatternCreater.downwardTriangleCharacterRaw(number);
+				break;
+			case 17:
+				PatternCreater.pyramidCharacter(number);
+				break;
+			case 18:
+				PatternCreater.rightTriangleCharaterReverse(number);
+				break;
 			}
+				
+				
 			System.out.println("DO YOU WANT TO CONTINUE Y?N");
 			con = scan.next();
 
