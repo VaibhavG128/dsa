@@ -80,6 +80,8 @@ public class Pattern {
 			case 18:
 				PatternCreater.rightTriangleCharaterReverse(number);
 				break;
+			case 19:
+				PatternCreater.diamondStarSpace(number);
 			}
 				
 				

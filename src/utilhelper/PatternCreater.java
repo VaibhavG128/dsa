@@ -302,8 +302,8 @@ public class PatternCreater {
 	/**
 	 * @author - Vaibhav Garg
 	 * @desc - Helper class to create patterns
-	 * @created at - 12/02/2023
-	 * @modified at - 12/02/2023
+	 * @created at - 14/02/2023
+	 * @modified at - 14/02/2023
 	 * @pattern - PYRAMID CHARACTER'S PATTERN
 	 * @patternno - 17
 	 */
@@ -325,8 +325,8 @@ public class PatternCreater {
 	/**
 	 * @author - Vaibhav Garg
 	 * @desc - Helper class to create patterns
-	 * @created at - 12/02/2023
-	 * @modified at - 12/02/2023
+	 * @created at - 14/02/2023
+	 * @modified at - 14/02/2023
 	 * @pattern -RIGHT TRIANGLE CHARACTER'S REVERSE PATTERN
 	 * @patternno - 18
 	 */
@@ -339,6 +339,41 @@ public class PatternCreater {
 			System.out.println();
 		}
 	}
+	
+	/**
+	 * @author - Vaibhav Garg
+	 * @desc - Helper class to create patterns
+	 * @created at - 14/02/2023
+	 * @modified at - 14/02/2023
+	 * @pattern - DIAMOND STAR AND SPACE PATTERN
+	 * @patternno - 19
+	 */
+	public static void diamondStarSpace(int n) {
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= 2*n; j++) {
+				if(j<=n-i+1||j>=n+i)
+				{
+					System.out.print("*");
+				}
+				else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+			
+		}
+		for (int i = 1; i <= n; i++) {
+		for (int j = 1; j <= 2 * n; j++) {
+			if (j <= i||j >= (2 * n - i)) {
+				System.out.print("*");
+			} else {
+				System.out.print(" ");
+			}
+		}
+		System.out.println();
+		}
+	}
+	
 	
 }
 	
