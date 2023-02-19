@@ -82,6 +82,16 @@ public class Pattern {
 				break;
 			case 19:
 				PatternCreater.diamondStarSpace(number);
+				break;
+			case 20:
+				PatternCreater.rightLeftTriangle(number);
+				break;
+			case 21:
+				PatternCreater.squarePatternSpace(number);
+				break;
+			case 22:
+				PatternCreater.squarePatternNumber(number);
+				break;
 			}
 				
 				
