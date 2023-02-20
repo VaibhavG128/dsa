@@ -92,7 +92,10 @@ public class Pattern {
 			case 22:
 				PatternCreater.squarePatternNumber(number);
 				break;
+			default:
+				System.out.println("wrong input enter valid input");
 			}
+				
 				
 				
 			System.out.println("DO YOU WANT TO CONTINUE Y?N");
