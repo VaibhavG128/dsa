@@ -35,7 +35,7 @@ public class ItterableExample {
 	}
 	public static void usingForLoop(List<String> list)
 	{
-		Instant start  = Instant.now();
+		Instant start   = Instant.now();
 		for(String element:list)
 		{
 			System.out.println(element);
