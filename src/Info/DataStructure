@@ -1,0 +1,32 @@
+& DS are different was to organizing data on your computer.
+==> eg - if you choose black color in unstructor color box
+
+& DS has two types
+ - Primitive(integer,float,char,boolean)
+ - NonPrimitive
+
+
+Algo is good when :
+-Correctness
+-Efficency
+
+Types of Algorithms
+ -Simple recursive 
+ -divide and conquer
+ -Dynamic programming
+ -Greedy 
+ -Brute force
+ -Randomized
+ 
+ Recusion 
+  -perform same operation multiple time with d/f input
+  -each step problem will break in small problems
+  -base Condition is compulsory
+  
+ Why Recursion
+  -a method call itself
+  -exit from infinite rule
+  
+recursion may crash system
+itteration may effect cpu cycles
+
